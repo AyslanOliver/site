@@ -1,0 +1,153 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+html, body{height: 100%;}
+
+header{
+    background-color: #73b4ff;
+    padding: 8px 2%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo{
+    margin-top: 8px;
+}
+.logo h3{
+    cursor: pointer;
+}
+
+.logo h3:hover{
+    opacity:  0.8;
+}
+
+.icons-header{
+    margin-top: 8px;
+}
+
+.icons-header svg{
+    cursor: pointer;
+}
+.icons-header svg:hover{
+    opacity: 0.8;
+}
+
+
+.info-header{
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    width: 8em;
+    
+}
+
+.info-header img{
+    width: 3.75em;
+    height: 3.75em;
+    border-radius: 2.5em;
+    margin: 0 10px;
+}
+
+
+.info-header svg{
+    margin-left: 0 10px;
+}
+
+.info-header{
+    margin-left: 10px;
+}
+
+.main{
+    display: flex;
+    flex-wrap: wrap;
+    height: 100%;
+}
+
+.sidebar{
+    padding: 0 0.5em;
+    width: 15%;
+    background-color: rgba(112, 113, 114, 0.171);
+    height: 100%;
+}
+
+.sidebar a.sidebar-active{
+    border-left: 0.25em solid #73b4ff;
+    background-color: rgb(245,245,245);
+    color: #777;
+    font-weight: bold;
+    
+}
+.sidebar a.sidebar-active> svg{
+    color: #777;
+   
+}
+
+
+.sidebar h3{
+    color: #333;
+    font-size: 20px;
+    text-decoration: none;
+    margin-left: 20px;
+}
+
+.sidebar a{
+    display: block;
+    text-decoration: none;
+    padding: 10px 15px;
+    color: #444;
+}
+
+.sidebar a:hover{
+    border-left: 4px solid #73b4ff;
+    background-color: rgb(245, 245, 245);
+    color: #777;
+    font-weight: bold;
+}
+.sidebar a:hover .sidebar a >svg{
+    color: #777;
+}
+
+.sidebar a > svg{
+    color: #444;
+}
+
+.content{
+    width: 80%;
+    background-color: rgb(245, 245, 245);
+    padding: 20px;
+}
+
+.titulo-sessao{
+    border-radius: 10px;
+    background-color: white;
+    padding: 10px;
+}
+
+.titulo-sessao h2{
+    font-size: 19px;
+}
+
+.titulo-sessao p{
+    font-size: 14px;
+}
+
+.titulo-sessao svg{
+    border-color: #73b4ff;
+}
+
+.separator{
+    width: 100%;
+    height: 1px;
+    background-color: rgb(240, 240, 254);
+}
+
+.box-info{
+    width: 100%;
+    margin-top: 20px;
+    display: flex;
+    justify-content: s;
+}

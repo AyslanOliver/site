@@ -5,7 +5,7 @@
   width: 31.25em;
   padding: 3.125em;
   transform: translate(-50%, -50%);
-  background: rgba(3, 21, 124, 0);
+  background: rgb(3, 21, 124);
   box-sizing: border-box;
   box-shadow: 0 0.9375em 1.5625em rgba(5, 5, 5, 0.6);
   border-radius: 0.625em;
@@ -16,7 +16,7 @@
   font-family: 'Madimi One';
   font-size: 40px;
   font-weight: normal;
-  color: #4cdf09e0;
+  color: #9c9e9a;
   font-style: italic;
   margin-bottom: 100px;
   position: relative;
@@ -53,7 +53,7 @@
   height: 100%;
   object-fit: cover;
   z-index: -2;
-  background-image: url(/htdocs/Site/css/img/402030.jpg);
+  background-image: url(https://img.freepik.com/fotos-premium/diagrama-de-grafico-de-financas-de-grafico-de-negocios-monetarios-sobre-fundo-de-moeda-3d-de-economia-com-dados-financeiros-de-crescimento_882361-1542.jpg);
   background-position: center center; /* Centraliza a imagem */
 }
 
@@ -88,7 +88,7 @@
   font-family: 'Madimi One';
   font-style: bold;
   font-size-adjust: inherit;
-  color: #3c9c04e0;
+  color: #f5f8f3e0;
   pointer-events: none;
   transition: 0.5s;
 
@@ -178,7 +178,7 @@
   height: 100%;
   margin: 0;
   padding: 0;
-  background-image: url(/htdocs/Site/css/img/backgroud.jpg);
+  background-image: url(https://capitalresearch.com.br/wp-content/uploads/2019/10/shutterstock_751455562.jpg);
   
 }
 
